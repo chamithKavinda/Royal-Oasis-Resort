@@ -20,6 +20,35 @@ body{
     color: #ffffff;
 }
 
+/* ============ section title ============ */
+.section-title{
+    position: relative;
+    display: inline-block;
+}
+
+.section-title::before{
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    left: -55px;
+    margin-top: -1px;
+    background: var(--primary);
+}
+
+.section-title::after{
+    position: absolute;
+    content: "";
+    width: 45px;
+    height: 2px;
+    top: 50%;
+    right: -55px;
+    margin-top: -1px;
+    background: var(--primary);
+}
+
+
 /* ============== Header section ============== */
 .carousel-caption{
     top: 0;
