@@ -48,6 +48,10 @@ body{
     background: var(--primary);
 }
 
+.section-title.text-start::before,
+.section-title.text-end::after{
+    display: none;
+}
 
 /* ============== Header section ============== */
 .carousel-caption{
