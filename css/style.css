@@ -95,3 +95,22 @@ body{
 .service-item:hover{
     background: var(--primary);
 }
+
+.service-item .service-icon{
+    margin: 0 auto 30px auto;
+    width: 65px;
+    height: 65px;
+    transition: 0.5s;
+}
+
+.service-icon i,
+.service-icon h5,
+.service-icon p{
+    transition: 0.5s;
+}
+
+.service-icon:hover i,
+.service-icon:hover h5,
+.service-icon:hover p{
+    color: #fff !important;
+}
