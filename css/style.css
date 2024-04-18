@@ -79,3 +79,19 @@ body{
     margin-top: -100px !important;
     z-index: 1;
 }
+
+/* ============== Service section ============== */
+.service-item{
+    height: 320px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: #ffffff;
+    box-shadow: 0 0 45px rgba(0, 0, 0, 0.08);
+}
+
+.service-item:hover{
+    background: var(--primary);
+}
