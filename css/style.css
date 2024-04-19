@@ -201,3 +201,25 @@ body{
     letter-spacing: 1px;
     box-shadow: none;
 }
+
+.footer .copyright{
+    padding: 25px 0;
+    font-size: 15px;
+    border-top: 1px solid rgba(256, 256, 256, 0.1);
+}
+
+.footer .copyright a{
+    color: var(--light);
+}
+
+.footer .footer-menu a{
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgb(255, 255, 255 , 0.3);
+}
+
+.footer .footer-menu a:last-child{
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
