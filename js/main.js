@@ -1,10 +1,11 @@
 (function ($){
+    "use strict";
 
     //Testimonials
     $(".testimonial-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
-        margin:25,
+        margin: 25,
         dots: false,
         loop: true,
         nav: true,
@@ -18,8 +19,9 @@
                 items:1
             },
             768:{
-                items:2
+                items: 2
             }
         }
     });
+    
 })(jQuery);
