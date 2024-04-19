@@ -1,5 +1,4 @@
 (function ($){
-    "use strict";
 
     //Testimonials
     $(".testimonial-carousel").owlCarousel({
