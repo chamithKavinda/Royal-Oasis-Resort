@@ -54,13 +54,17 @@ body{
 }
 
 /* ============== NavBar section ============== */
+.navbar-nav{
+    margin-left: 250px;
+}
+
 .navbar-nav .nav-link{
     padding: 25px 0;
     color: #ffffff;
     font-size: 15px;
     text-transform: uppercase;
     outline: none;
-    margin-left: 110px ;
+    margin-left: 60px;  
 }
 
 
@@ -91,6 +95,7 @@ body{
     margin-top: -100px !important;
     z-index: 1;
 }
+
 
 /* ============== Service section ============== */
 .service-item{
