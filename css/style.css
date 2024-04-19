@@ -53,6 +53,18 @@ body{
     display: none;
 }
 
+/* ============== NavBar section ============== */
+.navbar-nav .nav-link{
+    padding: 25px 0;
+    color: #ffffff;
+    font-size: 15px;
+    text-transform: uppercase;
+    outline: none;
+    margin-left: 110px ;
+}
+
+
+
 /* ============== Header section ============== */
 .carousel-caption{
     top: 0;
