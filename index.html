@@ -23,27 +23,32 @@
 </head>
 <body>
     
-    <div class="container-1">
+    <div class="container-xxl bg-white p-0">
         <!-- =========================== Navigation Bar ===========================  -->
-
         <div class="container-fluid bg-dark px-0 ">
             <div class="row gx-0">
+                <div class="col-lg-3 bg-dark d-none d-lg-block ">
+                    <a href="" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center ">
+                        <h1 class="m-0 text-primary text-uppercase">Royal Oasis</h1>
+                    </a>
+                </div>
+
                 <div class="col-lg-9">
                     <div class="navbar navbar-expand-lg bg-dark navbar-dark p-3 p-lg-0">
                         <!-- button for responsive device -->
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span class="navbar-toggler-icon"></span>
                         </button>
 
                         <!-- menu item -->
                         <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                             <nav class="navbar-nav mr-auto py-0">
-                                <a href="#header-carouse1" class="nav-item nav-link active">Home</a>
-                                    <a href="#About" class="nav-item nav-link active">About</a>
-                                    <a href="#rooms" class="nav-item nav-link active">Rooms</a>
-                                    <a href="#gallery" class="nav-item nav-link active">Gallery</a>
-                                    <a href="#services" class="nav-item nav-link active">service</a>
-                                    <a href="#contact" class="nav-item nav-link active">Contact</a>
+                                <a href="#Home" class="nav-item nav-link active">Home</a>
+                                <a href="#About" class="nav-item nav-link active">About</a>
+                                <a href="#Gallery" class="nav-item nav-link active">Gallery</a>
+                                <a href="#Rooms" class="nav-item nav-link active">Rooms</a>
+                                <a href="#services" class="nav-item nav-link active">service</a>
+                                <a href="#Contact" class="nav-item nav-link active">Contact</a>
                             </nav>
                         </div>
                     </div>
@@ -51,9 +56,8 @@
             </div>
         </div>
 
-
         <!-- =========================== Header Section ===========================  -->
-        <div class="container-fluid p-0 mb-5">
+        <div class="container-fluid p-0 mb-5" id="Home">
             <div id="header-carouse1" class="carousel slide" data-bs-ride="carousel" data-bs-interval="4000">
                 <div class="carousel-inner">
         
@@ -63,7 +67,7 @@
                             <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
                                 <h1 class="display-3 text-white mb-4 animated slideInDown">Discover A Brand Luxurious Hotel</h1>
-                                <a href="#rooms" class="btn btn-light btn-sm py-2 px-3 animated slideInRight">Book A Room</a>
+                                <a href="#Rooms" class="btn btn-light btn-sm py-2 px-3 animated slideInRight">Book A Room</a>
                             </div>
                         </div>
                     </div>
@@ -74,7 +78,7 @@
                             <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
                                 <h1 class="display-3 text-white mb-4 animated slideInDown">Discover A Brand Luxurious Hotel</h1>
-                                <a href="#rooms" class="btn btn-light btn-sm py-2 px-3 animated slideInRight">Book A Room</a>
+                                <a href="#Rooms" class="btn btn-light btn-sm py-2 px-3 animated slideInRight">Book A Room</a>
                             </div>
                         </div>
                     </div>
@@ -85,7 +89,7 @@
                             <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
                                 <h1 class="display-3 text-white mb-4 animated slideInDown">Discover A Brand Luxurious Hotel</h1>
-                                <a href="#rooms" class="btn btn-light btn-sm py-2 px-3 animated slideInRight">Book A Room</a>
+                                <a href="#Rooms" class="btn btn-light btn-sm py-2 px-3 animated slideInRight">Book A Room</a>
                             </div>
                         </div>
                     </div>
@@ -96,11 +100,10 @@
                             <div class="p-3" style="max-width: 700px;">
                                 <h6 class="section-title text-white text-uppercase mb-3 animated slideInDown">Luxury Living</h6>
                                 <h1 class="display-3 text-white mb-4 animated slideInDown">Discover A Brand Luxurious Hotel</h1>
-                                <a href="#rooms" class="btn btn-light btn-sm py-2 px-3 animated slideInRight">Book A Room</a>
+                                <a href="#Rooms" class="btn btn-light btn-sm py-2 px-3 animated slideInRight">Book A Room</a>
                             </div>
                         </div>
                     </div>
-        
                 </div>
                 <!-- Control buttons -->
                 <button class="carousel-control-prev" type="button" data-bs-target="#header-carouse1" data-bs-slide="prev">
@@ -252,8 +255,22 @@
             </div>
         </div>
 
+        <!-- =========================== Gallery Section ===========================  -->
+        <div class="container-xxl" id="Gallery">
+            <div class="container">
+                <div class="text-center wow fadeIn">
+                    <h6 class="section-title text-center text-primary text-uppercase">Our Gallery</h6>
+                    <h1 class="mb-5">Gallery</span></h1>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+
         <!-- =========================== Room Section ===========================  -->
-        <div class="container-xxl py-5 " id="rooms">
+        <div class="container-xxl py-5 " id="Rooms">
             <div class="container ">
                 <div class="text-center wow fadeIn">
                     <h6 class="section-title text-center text-primary text-uppercase">Our Rooms</h6>
@@ -495,16 +512,13 @@
 
                         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mn-n1"></i>
                     </div>
-
-            
-
                 </div>
             </div>
         </div>
 
         <!-- =========================== Footer Section ===========================  -->
 
-        <div class="container-fluid bg-dark text-light footer wow fadeIn" id="contact">
+        <div class="container-fluid bg-dark text-light footer wow fadeIn" id="Contact">
             <div class="container pb-5 ">
                 <div class="row g-5">
                     <div class="col-md-6 col-lg-4">
@@ -577,7 +591,6 @@
             </div>
 
         </div>
-
     </div>
 
     <!-- bootstrap js file -->
@@ -588,5 +601,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- owl js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 </body>
 </html>

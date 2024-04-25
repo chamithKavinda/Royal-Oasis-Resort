@@ -54,25 +54,36 @@ body{
 }
 
 /* ============== NavBar section ============== */
-.navbar {
+.navbar{
     position: fixed;
     width: 100%;
-    z-index: 1000; /* Ensure it's above other content */
 }
 
+
 .navbar-nav{
-    margin-left: 200px;
+    margin-left: 400px;
 }
 
 .navbar-nav .nav-link{
+    margin-right: 30px;
     padding: 25px 0;
     color: #ffffff;
     font-size: 15px;
     text-transform: uppercase;
-    outline: none;
-    margin-left: 60px;  
+    outline: none;  
 }
 
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link.active {
+    color: var(--primary);
+}
+
+@media (max-width: 991.98px) {
+    .navbar-dark .navbar-nav .nav-link  {
+        margin-right: 0;
+        padding: 10px 0;
+    }
+}
 
 
 /* ============== Header section ============== */
