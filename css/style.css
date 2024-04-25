@@ -54,8 +54,14 @@ body{
 }
 
 /* ============== NavBar section ============== */
+.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+}
+
 .navbar-nav{
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 .navbar-nav .nav-link{
