@@ -108,6 +108,12 @@ body{
     z-index: 1;
 }
 
+.hover-zoom:hover {
+    transform: scale(1.05); /* Increase the scale on hover for a zoom effect */
+    transition: transform 0.3s ease; /* Add transition effect for smoother hover */
+}
+
+
 /* ============== Gallery section ============== */
 .container .gallery {
     display: flex;
