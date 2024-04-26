@@ -270,11 +270,18 @@ body{
     font-family: "Font Awesome S free";
     font-weight: 900;
     margin-right: 10px;
+    text-decoration: none;
+}
+
+.footer .btn.btn-link{
+    text-decoration: none;
 }
 
 .footer .btn.btn-link:hover{
     letter-spacing: 1px;
     box-shadow: none;
+    text-decoration: none;
+    color: #fea116;
 }
 
 .footer .copyright{
@@ -285,12 +292,18 @@ body{
 
 .footer .copyright a{
     color: var(--light);
+    text-decoration: none;
 }
 
 .footer .footer-menu a{
     margin-right: 15px;
     padding-right: 15px;
     border-right: 1px solid rgb(255, 255, 255 , 0.3);
+    text-decoration: none;
+}
+
+.footer .footer-menu a:hover{
+    color: #fea116;
 }
 
 .footer .footer-menu a:last-child{
