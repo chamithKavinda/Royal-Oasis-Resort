@@ -523,7 +523,7 @@
             <div class="container">
                 <div class="owl-carousel testimonial-carousel py-5" style="display: flex;">
 
-                    <!-- 1st -->
+
                     <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
                         <p>I recently had the pleasure of staying at the Royal Oasis Resort, and I must say it was an unforgettable experience. From the moment I arrived, I was greeted with warmth and hospitality that truly made me feel like royalty.</p>
                         <div class="d-flex align-items-center">
@@ -551,10 +551,49 @@
 
                         <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mn-n1"></i>
                     </div>
+
+                    <div class="testimonial-item position-relative bg-white rounded overflow-hidden">
+                        <p>A wonderful experience from start to finish. The team was professional, friendly, and went above and beyond to ensure my satisfaction. I couldn't be happier with the results.</p>
+                        <div class="d-flex align-items-center">
+                            <img src="assest/images/pexels-soldiervip-1391498.jpg" alt="" class="img-fluid flex-shrink-0 rounded" style="width: 55px; height: 55px;">
+
+                            <div class="ps-3">
+                                <h6 class="fw-bold mb-1">Jenny Alex</h6>
+                                <small>Businessman</small>
+                            </div>
+                        </div>
+
+                        <i class="fa fa-quote-right fa-3x text-primary position-absolute end-0 bottom-0 me-4 mn-n1"></i>
+                    </div>
                 </div>
             </div>
         </div>
 
+        <script>
+            $(document).ready(function(){
+                $(".testimonial-carousel").owlCarousel({
+                    autoplay: true,
+                    smartSpeed: 1000,
+                    margin: 25,
+                    dots: false,
+                    loop: true,
+                    nav: true,
+                    navText: [
+                        '<i class="bi bi-arrow-left"></i>',
+                        '<i class="bi bi-arrow-right"></i>'
+                    ],
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        768: {
+                            items: 2
+                        }
+                    }
+                });
+            });
+        </script>
+            
         <!-- =========================== Footer Section ===========================  -->
 
             <div class="container-fluid bg-dark text-light footer wow fadeIn" data-wow-delay="0.1s" id="Contact">
@@ -632,5 +671,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <!-- owl js -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
 </body>
 </html>
