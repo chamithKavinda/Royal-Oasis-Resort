@@ -201,6 +201,8 @@ body{
 .testimonial-carousel{
     padding-left: 65px;
     padding-right: 65px;
+    display: flex;
+    gap: 30px;
 }
 
 .testimonial-carousel .testimonial-item{
